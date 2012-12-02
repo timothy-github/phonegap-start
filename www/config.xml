@@ -2,11 +2,11 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.dnx.hello-world"
-        version   = "9.9.0">
-    <name>DNX's Amazing app</name>
+        version   = "9.9.1">
+    <name>Name: DNX's Amazing app</name>
 
     <description>
-        DNX TEST.
+       Description: DNX TEST.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
