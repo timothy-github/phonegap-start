@@ -22,6 +22,7 @@ var app = {
     },
     bind: function() {
         document.addEventListener('deviceready', this.deviceready, false);
+		confirm("Had set deviceready envent");
     },
     deviceready: function() {
         // This is an event handler function, which means the scope is the event.
@@ -31,6 +32,7 @@ var app = {
     report: function(id) {
         // Report the event in the console
         console.log("Report: " + id);
+		alert("Report: " + id);
 
         // Toggle the state from "pending" to "complete" for the reported ID.
         // Accomplished by adding .hide to the pending element and removing
