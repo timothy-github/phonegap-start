@@ -26,7 +26,6 @@ var app = {
     deviceready: function() {
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
-		confirm(" envent....");
         app.report('deviceready');
     },
     report: function(id) {
